@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8027CA7A1ABEAC8100D555BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027CA791ABEAC8100D555BB /* AppDelegate.swift */; };
+		8027CA7C1ABEAC8100D555BB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8027CA7B1ABEAC8100D555BB /* GameScene.sks */; };
+		8027CA7E1ABEAC8100D555BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027CA7D1ABEAC8100D555BB /* GameScene.swift */; };
+		8027CA801ABEAC8100D555BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027CA7F1ABEAC8100D555BB /* GameViewController.swift */; };
+		8027CA831ABEAC8100D555BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8027CA811ABEAC8100D555BB /* Main.storyboard */; };
+		8027CA851ABEAC8100D555BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8027CA841ABEAC8100D555BB /* Images.xcassets */; };
+		8027CA881ABEAC8100D555BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8027CA861ABEAC8100D555BB /* LaunchScreen.xib */; };
+		8027CA941ABEAC8100D555BB /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027CA931ABEAC8100D555BB /* __Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8027CA8E1ABEAC8100D555BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8027CA6C1ABEAC8100D555BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8027CA731ABEAC8100D555BB;
+			remoteInfo = "足球";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8027CA741ABEAC8100D555BB /* 足球.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "足球.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027CA781ABEAC8100D555BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8027CA791ABEAC8100D555BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8027CA7B1ABEAC8100D555BB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8027CA7D1ABEAC8100D555BB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8027CA7F1ABEAC8100D555BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8027CA821ABEAC8100D555BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8027CA841ABEAC8100D555BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8027CA871ABEAC8100D555BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8027CA8D1ABEAC8100D555BB /* 足球Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "足球Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027CA921ABEAC8100D555BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8027CA931ABEAC8100D555BB /* __Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8027CA711ABEAC8100D555BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027CA8A1ABEAC8100D555BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8027CA6B1ABEAC8100D555BB = {
+			isa = PBXGroup;
+			children = (
+				8027CA761ABEAC8100D555BB /* 足球 */,
+				8027CA901ABEAC8100D555BB /* 足球Tests */,
+				8027CA751ABEAC8100D555BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8027CA751ABEAC8100D555BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8027CA741ABEAC8100D555BB /* 足球.app */,
+				8027CA8D1ABEAC8100D555BB /* 足球Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8027CA761ABEAC8100D555BB /* 足球 */ = {
+			isa = PBXGroup;
+			children = (
+				8027CA791ABEAC8100D555BB /* AppDelegate.swift */,
+				8027CA7B1ABEAC8100D555BB /* GameScene.sks */,
+				8027CA7D1ABEAC8100D555BB /* GameScene.swift */,
+				8027CA7F1ABEAC8100D555BB /* GameViewController.swift */,
+				8027CA811ABEAC8100D555BB /* Main.storyboard */,
+				8027CA841ABEAC8100D555BB /* Images.xcassets */,
+				8027CA861ABEAC8100D555BB /* LaunchScreen.xib */,
+				8027CA771ABEAC8100D555BB /* Supporting Files */,
+			);
+			path = "足球";
+			sourceTree = "<group>";
+		};
+		8027CA771ABEAC8100D555BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8027CA781ABEAC8100D555BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8027CA901ABEAC8100D555BB /* 足球Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8027CA931ABEAC8100D555BB /* __Tests.swift */,
+				8027CA911ABEAC8100D555BB /* Supporting Files */,
+			);
+			path = "足球Tests";
+			sourceTree = "<group>";
+		};
+		8027CA911ABEAC8100D555BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8027CA921ABEAC8100D555BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8027CA731ABEAC8100D555BB /* 足球 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027CA971ABEAC8100D555BB /* Build configuration list for PBXNativeTarget "足球" */;
+			buildPhases = (
+				8027CA701ABEAC8100D555BB /* Sources */,
+				8027CA711ABEAC8100D555BB /* Frameworks */,
+				8027CA721ABEAC8100D555BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "足球";
+			productName = "足球";
+			productReference = 8027CA741ABEAC8100D555BB /* 足球.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8027CA8C1ABEAC8100D555BB /* 足球Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027CA9A1ABEAC8100D555BB /* Build configuration list for PBXNativeTarget "足球Tests" */;
+			buildPhases = (
+				8027CA891ABEAC8100D555BB /* Sources */,
+				8027CA8A1ABEAC8100D555BB /* Frameworks */,
+				8027CA8B1ABEAC8100D555BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8027CA8F1ABEAC8100D555BB /* PBXTargetDependency */,
+			);
+			name = "足球Tests";
+			productName = "足球Tests";
+			productReference = 8027CA8D1ABEAC8100D555BB /* 足球Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8027CA6C1ABEAC8100D555BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = goofygao;
+				TargetAttributes = {
+					8027CA731ABEAC8100D555BB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8027CA8C1ABEAC8100D555BB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8027CA731ABEAC8100D555BB;
+					};
+				};
+			};
+			buildConfigurationList = 8027CA6F1ABEAC8100D555BB /* Build configuration list for PBXProject "足球" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8027CA6B1ABEAC8100D555BB;
+			productRefGroup = 8027CA751ABEAC8100D555BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8027CA731ABEAC8100D555BB /* 足球 */,
+				8027CA8C1ABEAC8100D555BB /* 足球Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8027CA721ABEAC8100D555BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027CA881ABEAC8100D555BB /* LaunchScreen.xib in Resources */,
+				8027CA851ABEAC8100D555BB /* Images.xcassets in Resources */,
+				8027CA7C1ABEAC8100D555BB /* GameScene.sks in Resources */,
+				8027CA831ABEAC8100D555BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027CA8B1ABEAC8100D555BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8027CA701ABEAC8100D555BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027CA7E1ABEAC8100D555BB /* GameScene.swift in Sources */,
+				8027CA801ABEAC8100D555BB /* GameViewController.swift in Sources */,
+				8027CA7A1ABEAC8100D555BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027CA891ABEAC8100D555BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027CA941ABEAC8100D555BB /* __Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8027CA8F1ABEAC8100D555BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8027CA731ABEAC8100D555BB /* 足球 */;
+			targetProxy = 8027CA8E1ABEAC8100D555BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8027CA811ABEAC8100D555BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8027CA821ABEAC8100D555BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8027CA861ABEAC8100D555BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8027CA871ABEAC8100D555BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8027CA951ABEAC8100D555BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8027CA961ABEAC8100D555BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8027CA981ABEAC8100D555BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "足球/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8027CA991ABEAC8100D555BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "足球/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8027CA9B1ABEAC8100D555BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "足球Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/足球.app/足球";
+			};
+			name = Debug;
+		};
+		8027CA9C1ABEAC8100D555BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "足球Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/足球.app/足球";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8027CA6F1ABEAC8100D555BB /* Build configuration list for PBXProject "足球" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027CA951ABEAC8100D555BB /* Debug */,
+				8027CA961ABEAC8100D555BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8027CA971ABEAC8100D555BB /* Build configuration list for PBXNativeTarget "足球" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027CA981ABEAC8100D555BB /* Debug */,
+				8027CA991ABEAC8100D555BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8027CA9A1ABEAC8100D555BB /* Build configuration list for PBXNativeTarget "足球Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027CA9B1ABEAC8100D555BB /* Debug */,
+				8027CA9C1ABEAC8100D555BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8027CA6C1ABEAC8100D555BB /* Project object */;
+}

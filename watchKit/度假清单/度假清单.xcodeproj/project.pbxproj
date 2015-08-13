@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FF55CE1AE1F38E00A7E0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF55CD1AE1F38E00A7E0EE /* AppDelegate.swift */; };
+		80FF55D11AE1F38E00A7E0EE /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80FF55CF1AE1F38E00A7E0EE /* ____.xcdatamodeld */; };
+		80FF55D31AE1F38E00A7E0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF55D21AE1F38E00A7E0EE /* ViewController.swift */; };
+		80FF55D61AE1F38E00A7E0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FF55D41AE1F38E00A7E0EE /* Main.storyboard */; };
+		80FF55D81AE1F38F00A7E0EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FF55D71AE1F38F00A7E0EE /* Images.xcassets */; };
+		80FF55DB1AE1F38F00A7E0EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FF55D91AE1F38F00A7E0EE /* LaunchScreen.xib */; };
+		80FF55E71AE1F38F00A7E0EE /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF55E61AE1F38F00A7E0EE /* ____Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FF55E11AE1F38F00A7E0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FF55C01AE1F38E00A7E0EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FF55C71AE1F38E00A7E0EE;
+			remoteInfo = "度假清单";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80FF55C81AE1F38E00A7E0EE /* 度假清单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "度假清单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FF55CC1AE1F38E00A7E0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FF55CD1AE1F38E00A7E0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FF55D01AE1F38E00A7E0EE /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
+		80FF55D21AE1F38E00A7E0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80FF55D51AE1F38E00A7E0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FF55D71AE1F38F00A7E0EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80FF55DA1AE1F38F00A7E0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80FF55E01AE1F38F00A7E0EE /* 度假清单Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "度假清单Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FF55E51AE1F38F00A7E0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FF55E61AE1F38F00A7E0EE /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FF55C51AE1F38E00A7E0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FF55DD1AE1F38F00A7E0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FF55BF1AE1F38E00A7E0EE = {
+			isa = PBXGroup;
+			children = (
+				80FF55CA1AE1F38E00A7E0EE /* 度假清单 */,
+				80FF55E31AE1F38F00A7E0EE /* 度假清单Tests */,
+				80FF55C91AE1F38E00A7E0EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FF55C91AE1F38E00A7E0EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FF55C81AE1F38E00A7E0EE /* 度假清单.app */,
+				80FF55E01AE1F38F00A7E0EE /* 度假清单Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FF55CA1AE1F38E00A7E0EE /* 度假清单 */ = {
+			isa = PBXGroup;
+			children = (
+				80FF55CD1AE1F38E00A7E0EE /* AppDelegate.swift */,
+				80FF55D21AE1F38E00A7E0EE /* ViewController.swift */,
+				80FF55D41AE1F38E00A7E0EE /* Main.storyboard */,
+				80FF55D71AE1F38F00A7E0EE /* Images.xcassets */,
+				80FF55D91AE1F38F00A7E0EE /* LaunchScreen.xib */,
+				80FF55CF1AE1F38E00A7E0EE /* ____.xcdatamodeld */,
+				80FF55CB1AE1F38E00A7E0EE /* Supporting Files */,
+			);
+			path = "度假清单";
+			sourceTree = "<group>";
+		};
+		80FF55CB1AE1F38E00A7E0EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FF55CC1AE1F38E00A7E0EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80FF55E31AE1F38F00A7E0EE /* 度假清单Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80FF55E61AE1F38F00A7E0EE /* ____Tests.swift */,
+				80FF55E41AE1F38F00A7E0EE /* Supporting Files */,
+			);
+			path = "度假清单Tests";
+			sourceTree = "<group>";
+		};
+		80FF55E41AE1F38F00A7E0EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FF55E51AE1F38F00A7E0EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FF55C71AE1F38E00A7E0EE /* 度假清单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FF55EA1AE1F38F00A7E0EE /* Build configuration list for PBXNativeTarget "度假清单" */;
+			buildPhases = (
+				80FF55C41AE1F38E00A7E0EE /* Sources */,
+				80FF55C51AE1F38E00A7E0EE /* Frameworks */,
+				80FF55C61AE1F38E00A7E0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "度假清单";
+			productName = "度假清单";
+			productReference = 80FF55C81AE1F38E00A7E0EE /* 度假清单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FF55DF1AE1F38F00A7E0EE /* 度假清单Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FF55ED1AE1F38F00A7E0EE /* Build configuration list for PBXNativeTarget "度假清单Tests" */;
+			buildPhases = (
+				80FF55DC1AE1F38F00A7E0EE /* Sources */,
+				80FF55DD1AE1F38F00A7E0EE /* Frameworks */,
+				80FF55DE1AE1F38F00A7E0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FF55E21AE1F38F00A7E0EE /* PBXTargetDependency */,
+			);
+			name = "度假清单Tests";
+			productName = "度假清单Tests";
+			productReference = 80FF55E01AE1F38F00A7E0EE /* 度假清单Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FF55C01AE1F38E00A7E0EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = goofygao;
+				TargetAttributes = {
+					80FF55C71AE1F38E00A7E0EE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					80FF55DF1AE1F38F00A7E0EE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 80FF55C71AE1F38E00A7E0EE;
+					};
+				};
+			};
+			buildConfigurationList = 80FF55C31AE1F38E00A7E0EE /* Build configuration list for PBXProject "度假清单" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FF55BF1AE1F38E00A7E0EE;
+			productRefGroup = 80FF55C91AE1F38E00A7E0EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FF55C71AE1F38E00A7E0EE /* 度假清单 */,
+				80FF55DF1AE1F38F00A7E0EE /* 度假清单Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FF55C61AE1F38E00A7E0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FF55D61AE1F38E00A7E0EE /* Main.storyboard in Resources */,
+				80FF55DB1AE1F38F00A7E0EE /* LaunchScreen.xib in Resources */,
+				80FF55D81AE1F38F00A7E0EE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FF55DE1AE1F38F00A7E0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FF55C41AE1F38E00A7E0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FF55D31AE1F38E00A7E0EE /* ViewController.swift in Sources */,
+				80FF55CE1AE1F38E00A7E0EE /* AppDelegate.swift in Sources */,
+				80FF55D11AE1F38E00A7E0EE /* ____.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FF55DC1AE1F38F00A7E0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FF55E71AE1F38F00A7E0EE /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FF55E21AE1F38F00A7E0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FF55C71AE1F38E00A7E0EE /* 度假清单 */;
+			targetProxy = 80FF55E11AE1F38F00A7E0EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80FF55D41AE1F38E00A7E0EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FF55D51AE1F38E00A7E0EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FF55D91AE1F38F00A7E0EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FF55DA1AE1F38F00A7E0EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FF55E81AE1F38F00A7E0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80FF55E91AE1F38F00A7E0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FF55EB1AE1F38F00A7E0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "度假清单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80FF55EC1AE1F38F00A7E0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "度假清单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80FF55EE1AE1F38F00A7E0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "度假清单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/度假清单.app/度假清单";
+			};
+			name = Debug;
+		};
+		80FF55EF1AE1F38F00A7E0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "度假清单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/度假清单.app/度假清单";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FF55C31AE1F38E00A7E0EE /* Build configuration list for PBXProject "度假清单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FF55E81AE1F38F00A7E0EE /* Debug */,
+				80FF55E91AE1F38F00A7E0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FF55EA1AE1F38F00A7E0EE /* Build configuration list for PBXNativeTarget "度假清单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FF55EB1AE1F38F00A7E0EE /* Debug */,
+				80FF55EC1AE1F38F00A7E0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80FF55ED1AE1F38F00A7E0EE /* Build configuration list for PBXNativeTarget "度假清单Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FF55EE1AE1F38F00A7E0EE /* Debug */,
+				80FF55EF1AE1F38F00A7E0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80FF55CF1AE1F38E00A7E0EE /* ____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80FF55D01AE1F38E00A7E0EE /* ____.xcdatamodel */,
+			);
+			currentVersion = 80FF55D01AE1F38E00A7E0EE /* ____.xcdatamodel */;
+			path = "____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80FF55C01AE1F38E00A7E0EE /* Project object */;
+}

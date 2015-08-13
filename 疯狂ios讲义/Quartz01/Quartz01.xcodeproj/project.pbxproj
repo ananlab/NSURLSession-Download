@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8044B7DB1ADE3AC60078C079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8044B7DA1ADE3AC60078C079 /* AppDelegate.swift */; };
+		8044B7DE1ADE3AC60078C079 /* Quartz01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8044B7DC1ADE3AC60078C079 /* Quartz01.xcdatamodeld */; };
+		8044B7E01ADE3AC60078C079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8044B7DF1ADE3AC60078C079 /* ViewController.swift */; };
+		8044B7E31ADE3AC60078C079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8044B7E11ADE3AC60078C079 /* Main.storyboard */; };
+		8044B7E51ADE3AC60078C079 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8044B7E41ADE3AC60078C079 /* Images.xcassets */; };
+		8044B7E81ADE3AC60078C079 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8044B7E61ADE3AC60078C079 /* LaunchScreen.xib */; };
+		8044B7F41ADE3AC70078C079 /* Quartz01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8044B7F31ADE3AC70078C079 /* Quartz01Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8044B7EE1ADE3AC70078C079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8044B7CD1ADE3AC60078C079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8044B7D41ADE3AC60078C079;
+			remoteInfo = Quartz01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8044B7D51ADE3AC60078C079 /* Quartz01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8044B7D91ADE3AC60078C079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8044B7DA1ADE3AC60078C079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8044B7DD1ADE3AC60078C079 /* Quartz01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quartz01.xcdatamodel; sourceTree = "<group>"; };
+		8044B7DF1ADE3AC60078C079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8044B7E21ADE3AC60078C079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8044B7E41ADE3AC60078C079 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8044B7E71ADE3AC60078C079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8044B7ED1ADE3AC70078C079 /* Quartz01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8044B7F21ADE3AC70078C079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8044B7F31ADE3AC70078C079 /* Quartz01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quartz01Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8044B7D21ADE3AC60078C079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8044B7EA1ADE3AC70078C079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8044B7CC1ADE3AC60078C079 = {
+			isa = PBXGroup;
+			children = (
+				8044B7D71ADE3AC60078C079 /* Quartz01 */,
+				8044B7F01ADE3AC70078C079 /* Quartz01Tests */,
+				8044B7D61ADE3AC60078C079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8044B7D61ADE3AC60078C079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8044B7D51ADE3AC60078C079 /* Quartz01.app */,
+				8044B7ED1ADE3AC70078C079 /* Quartz01Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8044B7D71ADE3AC60078C079 /* Quartz01 */ = {
+			isa = PBXGroup;
+			children = (
+				8044B7DA1ADE3AC60078C079 /* AppDelegate.swift */,
+				8044B7DF1ADE3AC60078C079 /* ViewController.swift */,
+				8044B7E11ADE3AC60078C079 /* Main.storyboard */,
+				8044B7E41ADE3AC60078C079 /* Images.xcassets */,
+				8044B7E61ADE3AC60078C079 /* LaunchScreen.xib */,
+				8044B7DC1ADE3AC60078C079 /* Quartz01.xcdatamodeld */,
+				8044B7D81ADE3AC60078C079 /* Supporting Files */,
+			);
+			path = Quartz01;
+			sourceTree = "<group>";
+		};
+		8044B7D81ADE3AC60078C079 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8044B7D91ADE3AC60078C079 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8044B7F01ADE3AC70078C079 /* Quartz01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8044B7F31ADE3AC70078C079 /* Quartz01Tests.swift */,
+				8044B7F11ADE3AC70078C079 /* Supporting Files */,
+			);
+			path = Quartz01Tests;
+			sourceTree = "<group>";
+		};
+		8044B7F11ADE3AC70078C079 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8044B7F21ADE3AC70078C079 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8044B7D41ADE3AC60078C079 /* Quartz01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8044B7F71ADE3AC70078C079 /* Build configuration list for PBXNativeTarget "Quartz01" */;
+			buildPhases = (
+				8044B7D11ADE3AC60078C079 /* Sources */,
+				8044B7D21ADE3AC60078C079 /* Frameworks */,
+				8044B7D31ADE3AC60078C079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quartz01;
+			productName = Quartz01;
+			productReference = 8044B7D51ADE3AC60078C079 /* Quartz01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8044B7EC1ADE3AC70078C079 /* Quartz01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8044B7FA1ADE3AC70078C079 /* Build configuration list for PBXNativeTarget "Quartz01Tests" */;
+			buildPhases = (
+				8044B7E91ADE3AC70078C079 /* Sources */,
+				8044B7EA1ADE3AC70078C079 /* Frameworks */,
+				8044B7EB1ADE3AC70078C079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8044B7EF1ADE3AC70078C079 /* PBXTargetDependency */,
+			);
+			name = Quartz01Tests;
+			productName = Quartz01Tests;
+			productReference = 8044B7ED1ADE3AC70078C079 /* Quartz01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8044B7CD1ADE3AC60078C079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = goofygao;
+				TargetAttributes = {
+					8044B7D41ADE3AC60078C079 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8044B7EC1ADE3AC70078C079 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8044B7D41ADE3AC60078C079;
+					};
+				};
+			};
+			buildConfigurationList = 8044B7D01ADE3AC60078C079 /* Build configuration list for PBXProject "Quartz01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8044B7CC1ADE3AC60078C079;
+			productRefGroup = 8044B7D61ADE3AC60078C079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8044B7D41ADE3AC60078C079 /* Quartz01 */,
+				8044B7EC1ADE3AC70078C079 /* Quartz01Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8044B7D31ADE3AC60078C079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8044B7E31ADE3AC60078C079 /* Main.storyboard in Resources */,
+				8044B7E81ADE3AC60078C079 /* LaunchScreen.xib in Resources */,
+				8044B7E51ADE3AC60078C079 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8044B7EB1ADE3AC70078C079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8044B7D11ADE3AC60078C079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8044B7E01ADE3AC60078C079 /* ViewController.swift in Sources */,
+				8044B7DB1ADE3AC60078C079 /* AppDelegate.swift in Sources */,
+				8044B7DE1ADE3AC60078C079 /* Quartz01.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8044B7E91ADE3AC70078C079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8044B7F41ADE3AC70078C079 /* Quartz01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8044B7EF1ADE3AC70078C079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8044B7D41ADE3AC60078C079 /* Quartz01 */;
+			targetProxy = 8044B7EE1ADE3AC70078C079 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8044B7E11ADE3AC60078C079 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8044B7E21ADE3AC60078C079 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8044B7E61ADE3AC60078C079 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8044B7E71ADE3AC60078C079 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8044B7F51ADE3AC70078C079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8044B7F61ADE3AC70078C079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8044B7F81ADE3AC70078C079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quartz01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8044B7F91ADE3AC70078C079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quartz01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8044B7FB1ADE3AC70078C079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Quartz01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz01.app/Quartz01";
+			};
+			name = Debug;
+		};
+		8044B7FC1ADE3AC70078C079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Quartz01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz01.app/Quartz01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8044B7D01ADE3AC60078C079 /* Build configuration list for PBXProject "Quartz01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8044B7F51ADE3AC70078C079 /* Debug */,
+				8044B7F61ADE3AC70078C079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8044B7F71ADE3AC70078C079 /* Build configuration list for PBXNativeTarget "Quartz01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8044B7F81ADE3AC70078C079 /* Debug */,
+				8044B7F91ADE3AC70078C079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8044B7FA1ADE3AC70078C079 /* Build configuration list for PBXNativeTarget "Quartz01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8044B7FB1ADE3AC70078C079 /* Debug */,
+				8044B7FC1ADE3AC70078C079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8044B7DC1ADE3AC60078C079 /* Quartz01.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8044B7DD1ADE3AC60078C079 /* Quartz01.xcdatamodel */,
+			);
+			currentVersion = 8044B7DD1ADE3AC60078C079 /* Quartz01.xcdatamodel */;
+			path = Quartz01.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8044B7CD1ADE3AC60078C079 /* Project object */;
+}

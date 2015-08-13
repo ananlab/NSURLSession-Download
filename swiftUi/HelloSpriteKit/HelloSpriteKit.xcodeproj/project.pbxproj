@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B9D95A1AA0AB9A001AA573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D9591AA0AB9A001AA573 /* AppDelegate.swift */; };
+		80B9D95C1AA0AB9A001AA573 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D95B1AA0AB9A001AA573 /* GameScene.sks */; };
+		80B9D95E1AA0AB9A001AA573 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D95D1AA0AB9A001AA573 /* GameScene.swift */; };
+		80B9D9601AA0AB9A001AA573 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D95F1AA0AB9A001AA573 /* GameViewController.swift */; };
+		80B9D9631AA0AB9A001AA573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D9611AA0AB9A001AA573 /* Main.storyboard */; };
+		80B9D9651AA0AB9A001AA573 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D9641AA0AB9A001AA573 /* Images.xcassets */; };
+		80B9D9681AA0AB9A001AA573 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B9D9661AA0AB9A001AA573 /* LaunchScreen.xib */; };
+		80B9D9741AA0AB9A001AA573 /* HelloSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9D9731AA0AB9A001AA573 /* HelloSpriteKitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80B9D96E1AA0AB9A001AA573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B9D94C1AA0AB99001AA573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B9D9531AA0AB9A001AA573;
+			remoteInfo = HelloSpriteKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80B9D9541AA0AB9A001AA573 /* HelloSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B9D9581AA0AB9A001AA573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B9D9591AA0AB9A001AA573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80B9D95B1AA0AB9A001AA573 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		80B9D95D1AA0AB9A001AA573 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		80B9D95F1AA0AB9A001AA573 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		80B9D9621AA0AB9A001AA573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B9D9641AA0AB9A001AA573 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80B9D9671AA0AB9A001AA573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80B9D96D1AA0AB9A001AA573 /* HelloSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B9D9721AA0AB9A001AA573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B9D9731AA0AB9A001AA573 /* HelloSpriteKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSpriteKitTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B9D9511AA0AB9A001AA573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B9D96A1AA0AB9A001AA573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B9D94B1AA0AB99001AA573 = {
+			isa = PBXGroup;
+			children = (
+				80B9D9561AA0AB9A001AA573 /* HelloSpriteKit */,
+				80B9D9701AA0AB9A001AA573 /* HelloSpriteKitTests */,
+				80B9D9551AA0AB9A001AA573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80B9D9551AA0AB9A001AA573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D9541AA0AB9A001AA573 /* HelloSpriteKit.app */,
+				80B9D96D1AA0AB9A001AA573 /* HelloSpriteKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B9D9561AA0AB9A001AA573 /* HelloSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D9591AA0AB9A001AA573 /* AppDelegate.swift */,
+				80B9D95B1AA0AB9A001AA573 /* GameScene.sks */,
+				80B9D95D1AA0AB9A001AA573 /* GameScene.swift */,
+				80B9D95F1AA0AB9A001AA573 /* GameViewController.swift */,
+				80B9D9611AA0AB9A001AA573 /* Main.storyboard */,
+				80B9D9641AA0AB9A001AA573 /* Images.xcassets */,
+				80B9D9661AA0AB9A001AA573 /* LaunchScreen.xib */,
+				80B9D9571AA0AB9A001AA573 /* Supporting Files */,
+			);
+			path = HelloSpriteKit;
+			sourceTree = "<group>";
+		};
+		80B9D9571AA0AB9A001AA573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D9581AA0AB9A001AA573 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80B9D9701AA0AB9A001AA573 /* HelloSpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D9731AA0AB9A001AA573 /* HelloSpriteKitTests.swift */,
+				80B9D9711AA0AB9A001AA573 /* Supporting Files */,
+			);
+			path = HelloSpriteKitTests;
+			sourceTree = "<group>";
+		};
+		80B9D9711AA0AB9A001AA573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80B9D9721AA0AB9A001AA573 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B9D9531AA0AB9A001AA573 /* HelloSpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B9D9771AA0AB9A001AA573 /* Build configuration list for PBXNativeTarget "HelloSpriteKit" */;
+			buildPhases = (
+				80B9D9501AA0AB9A001AA573 /* Sources */,
+				80B9D9511AA0AB9A001AA573 /* Frameworks */,
+				80B9D9521AA0AB9A001AA573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSpriteKit;
+			productName = HelloSpriteKit;
+			productReference = 80B9D9541AA0AB9A001AA573 /* HelloSpriteKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80B9D96C1AA0AB9A001AA573 /* HelloSpriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B9D97A1AA0AB9A001AA573 /* Build configuration list for PBXNativeTarget "HelloSpriteKitTests" */;
+			buildPhases = (
+				80B9D9691AA0AB9A001AA573 /* Sources */,
+				80B9D96A1AA0AB9A001AA573 /* Frameworks */,
+				80B9D96B1AA0AB9A001AA573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B9D96F1AA0AB9A001AA573 /* PBXTargetDependency */,
+			);
+			name = HelloSpriteKitTests;
+			productName = HelloSpriteKitTests;
+			productReference = 80B9D96D1AA0AB9A001AA573 /* HelloSpriteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B9D94C1AA0AB99001AA573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = goofygao;
+				TargetAttributes = {
+					80B9D9531AA0AB9A001AA573 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					80B9D96C1AA0AB9A001AA573 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 80B9D9531AA0AB9A001AA573;
+					};
+				};
+			};
+			buildConfigurationList = 80B9D94F1AA0AB99001AA573 /* Build configuration list for PBXProject "HelloSpriteKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B9D94B1AA0AB99001AA573;
+			productRefGroup = 80B9D9551AA0AB9A001AA573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B9D9531AA0AB9A001AA573 /* HelloSpriteKit */,
+				80B9D96C1AA0AB9A001AA573 /* HelloSpriteKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B9D9521AA0AB9A001AA573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B9D9681AA0AB9A001AA573 /* LaunchScreen.xib in Resources */,
+				80B9D9651AA0AB9A001AA573 /* Images.xcassets in Resources */,
+				80B9D95C1AA0AB9A001AA573 /* GameScene.sks in Resources */,
+				80B9D9631AA0AB9A001AA573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B9D96B1AA0AB9A001AA573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B9D9501AA0AB9A001AA573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B9D95E1AA0AB9A001AA573 /* GameScene.swift in Sources */,
+				80B9D9601AA0AB9A001AA573 /* GameViewController.swift in Sources */,
+				80B9D95A1AA0AB9A001AA573 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B9D9691AA0AB9A001AA573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B9D9741AA0AB9A001AA573 /* HelloSpriteKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80B9D96F1AA0AB9A001AA573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B9D9531AA0AB9A001AA573 /* HelloSpriteKit */;
+			targetProxy = 80B9D96E1AA0AB9A001AA573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80B9D9611AA0AB9A001AA573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B9D9621AA0AB9A001AA573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80B9D9661AA0AB9A001AA573 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B9D9671AA0AB9A001AA573 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B9D9751AA0AB9A001AA573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80B9D9761AA0AB9A001AA573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B9D9781AA0AB9A001AA573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloSpriteKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80B9D9791AA0AB9A001AA573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloSpriteKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80B9D97B1AA0AB9A001AA573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloSpriteKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloSpriteKit.app/HelloSpriteKit";
+			};
+			name = Debug;
+		};
+		80B9D97C1AA0AB9A001AA573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloSpriteKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloSpriteKit.app/HelloSpriteKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B9D94F1AA0AB99001AA573 /* Build configuration list for PBXProject "HelloSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B9D9751AA0AB9A001AA573 /* Debug */,
+				80B9D9761AA0AB9A001AA573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B9D9771AA0AB9A001AA573 /* Build configuration list for PBXNativeTarget "HelloSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B9D9781AA0AB9A001AA573 /* Debug */,
+				80B9D9791AA0AB9A001AA573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80B9D97A1AA0AB9A001AA573 /* Build configuration list for PBXNativeTarget "HelloSpriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B9D97B1AA0AB9A001AA573 /* Debug */,
+				80B9D97C1AA0AB9A001AA573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B9D94C1AA0AB99001AA573 /* Project object */;
+}

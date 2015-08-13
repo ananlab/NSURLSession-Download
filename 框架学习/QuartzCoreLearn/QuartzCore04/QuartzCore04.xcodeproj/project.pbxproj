@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FD76881AE4BAAD0030B8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD76871AE4BAAD0030B8BE /* AppDelegate.swift */; };
+		80FD768B1AE4BAAD0030B8BE /* QuartzCore04.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80FD76891AE4BAAD0030B8BE /* QuartzCore04.xcdatamodeld */; };
+		80FD768D1AE4BAAD0030B8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD768C1AE4BAAD0030B8BE /* ViewController.swift */; };
+		80FD76901AE4BAAD0030B8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FD768E1AE4BAAD0030B8BE /* Main.storyboard */; };
+		80FD76921AE4BAAD0030B8BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FD76911AE4BAAD0030B8BE /* Images.xcassets */; };
+		80FD76951AE4BAAD0030B8BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FD76931AE4BAAD0030B8BE /* LaunchScreen.xib */; };
+		80FD76A11AE4BAAD0030B8BE /* QuartzCore04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD76A01AE4BAAD0030B8BE /* QuartzCore04Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FD769B1AE4BAAD0030B8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FD767A1AE4BAAD0030B8BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FD76811AE4BAAD0030B8BE;
+			remoteInfo = QuartzCore04;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80FD76821AE4BAAD0030B8BE /* QuartzCore04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzCore04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FD76861AE4BAAD0030B8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FD76871AE4BAAD0030B8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FD768A1AE4BAAD0030B8BE /* QuartzCore04.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuartzCore04.xcdatamodel; sourceTree = "<group>"; };
+		80FD768C1AE4BAAD0030B8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80FD768F1AE4BAAD0030B8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FD76911AE4BAAD0030B8BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80FD76941AE4BAAD0030B8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80FD769A1AE4BAAD0030B8BE /* QuartzCore04Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzCore04Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FD769F1AE4BAAD0030B8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FD76A01AE4BAAD0030B8BE /* QuartzCore04Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzCore04Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FD767F1AE4BAAD0030B8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FD76971AE4BAAD0030B8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FD76791AE4BAAD0030B8BE = {
+			isa = PBXGroup;
+			children = (
+				80FD76841AE4BAAD0030B8BE /* QuartzCore04 */,
+				80FD769D1AE4BAAD0030B8BE /* QuartzCore04Tests */,
+				80FD76831AE4BAAD0030B8BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FD76831AE4BAAD0030B8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FD76821AE4BAAD0030B8BE /* QuartzCore04.app */,
+				80FD769A1AE4BAAD0030B8BE /* QuartzCore04Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FD76841AE4BAAD0030B8BE /* QuartzCore04 */ = {
+			isa = PBXGroup;
+			children = (
+				80FD76871AE4BAAD0030B8BE /* AppDelegate.swift */,
+				80FD768C1AE4BAAD0030B8BE /* ViewController.swift */,
+				80FD768E1AE4BAAD0030B8BE /* Main.storyboard */,
+				80FD76911AE4BAAD0030B8BE /* Images.xcassets */,
+				80FD76931AE4BAAD0030B8BE /* LaunchScreen.xib */,
+				80FD76891AE4BAAD0030B8BE /* QuartzCore04.xcdatamodeld */,
+				80FD76851AE4BAAD0030B8BE /* Supporting Files */,
+			);
+			path = QuartzCore04;
+			sourceTree = "<group>";
+		};
+		80FD76851AE4BAAD0030B8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FD76861AE4BAAD0030B8BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80FD769D1AE4BAAD0030B8BE /* QuartzCore04Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80FD76A01AE4BAAD0030B8BE /* QuartzCore04Tests.swift */,
+				80FD769E1AE4BAAD0030B8BE /* Supporting Files */,
+			);
+			path = QuartzCore04Tests;
+			sourceTree = "<group>";
+		};
+		80FD769E1AE4BAAD0030B8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FD769F1AE4BAAD0030B8BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FD76811AE4BAAD0030B8BE /* QuartzCore04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FD76A41AE4BAAD0030B8BE /* Build configuration list for PBXNativeTarget "QuartzCore04" */;
+			buildPhases = (
+				80FD767E1AE4BAAD0030B8BE /* Sources */,
+				80FD767F1AE4BAAD0030B8BE /* Frameworks */,
+				80FD76801AE4BAAD0030B8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzCore04;
+			productName = QuartzCore04;
+			productReference = 80FD76821AE4BAAD0030B8BE /* QuartzCore04.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FD76991AE4BAAD0030B8BE /* QuartzCore04Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FD76A71AE4BAAD0030B8BE /* Build configuration list for PBXNativeTarget "QuartzCore04Tests" */;
+			buildPhases = (
+				80FD76961AE4BAAD0030B8BE /* Sources */,
+				80FD76971AE4BAAD0030B8BE /* Frameworks */,
+				80FD76981AE4BAAD0030B8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FD769C1AE4BAAD0030B8BE /* PBXTargetDependency */,
+			);
+			name = QuartzCore04Tests;
+			productName = QuartzCore04Tests;
+			productReference = 80FD769A1AE4BAAD0030B8BE /* QuartzCore04Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FD767A1AE4BAAD0030B8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = goofygao;
+				TargetAttributes = {
+					80FD76811AE4BAAD0030B8BE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					80FD76991AE4BAAD0030B8BE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 80FD76811AE4BAAD0030B8BE;
+					};
+				};
+			};
+			buildConfigurationList = 80FD767D1AE4BAAD0030B8BE /* Build configuration list for PBXProject "QuartzCore04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FD76791AE4BAAD0030B8BE;
+			productRefGroup = 80FD76831AE4BAAD0030B8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FD76811AE4BAAD0030B8BE /* QuartzCore04 */,
+				80FD76991AE4BAAD0030B8BE /* QuartzCore04Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FD76801AE4BAAD0030B8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD76901AE4BAAD0030B8BE /* Main.storyboard in Resources */,
+				80FD76951AE4BAAD0030B8BE /* LaunchScreen.xib in Resources */,
+				80FD76921AE4BAAD0030B8BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FD76981AE4BAAD0030B8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FD767E1AE4BAAD0030B8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD768D1AE4BAAD0030B8BE /* ViewController.swift in Sources */,
+				80FD76881AE4BAAD0030B8BE /* AppDelegate.swift in Sources */,
+				80FD768B1AE4BAAD0030B8BE /* QuartzCore04.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FD76961AE4BAAD0030B8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD76A11AE4BAAD0030B8BE /* QuartzCore04Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FD769C1AE4BAAD0030B8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FD76811AE4BAAD0030B8BE /* QuartzCore04 */;
+			targetProxy = 80FD769B1AE4BAAD0030B8BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80FD768E1AE4BAAD0030B8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FD768F1AE4BAAD0030B8BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FD76931AE4BAAD0030B8BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FD76941AE4BAAD0030B8BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FD76A21AE4BAAD0030B8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80FD76A31AE4BAAD0030B8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FD76A51AE4BAAD0030B8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuartzCore04/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80FD76A61AE4BAAD0030B8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuartzCore04/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80FD76A81AE4BAAD0030B8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuartzCore04Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzCore04.app/QuartzCore04";
+			};
+			name = Debug;
+		};
+		80FD76A91AE4BAAD0030B8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuartzCore04Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzCore04.app/QuartzCore04";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FD767D1AE4BAAD0030B8BE /* Build configuration list for PBXProject "QuartzCore04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FD76A21AE4BAAD0030B8BE /* Debug */,
+				80FD76A31AE4BAAD0030B8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FD76A41AE4BAAD0030B8BE /* Build configuration list for PBXNativeTarget "QuartzCore04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FD76A51AE4BAAD0030B8BE /* Debug */,
+				80FD76A61AE4BAAD0030B8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80FD76A71AE4BAAD0030B8BE /* Build configuration list for PBXNativeTarget "QuartzCore04Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FD76A81AE4BAAD0030B8BE /* Debug */,
+				80FD76A91AE4BAAD0030B8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80FD76891AE4BAAD0030B8BE /* QuartzCore04.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80FD768A1AE4BAAD0030B8BE /* QuartzCore04.xcdatamodel */,
+			);
+			currentVersion = 80FD768A1AE4BAAD0030B8BE /* QuartzCore04.xcdatamodel */;
+			path = QuartzCore04.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80FD767A1AE4BAAD0030B8BE /* Project object */;
+}

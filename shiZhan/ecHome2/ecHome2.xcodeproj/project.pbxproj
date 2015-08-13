@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80F6EF211AA9796B0056E147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6EF201AA9796B0056E147 /* AppDelegate.swift */; };
+		80F6EF241AA9796B0056E147 /* ecHome2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80F6EF221AA9796B0056E147 /* ecHome2.xcdatamodeld */; };
+		80F6EF261AA9796B0056E147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6EF251AA9796B0056E147 /* ViewController.swift */; };
+		80F6EF291AA9796B0056E147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F6EF271AA9796B0056E147 /* Main.storyboard */; };
+		80F6EF2B1AA9796B0056E147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F6EF2A1AA9796B0056E147 /* Images.xcassets */; };
+		80F6EF2E1AA9796B0056E147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F6EF2C1AA9796B0056E147 /* LaunchScreen.xib */; };
+		80F6EF3A1AA9796B0056E147 /* ecHome2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6EF391AA9796B0056E147 /* ecHome2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80F6EF341AA9796B0056E147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F6EF131AA9796B0056E147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F6EF1A1AA9796B0056E147;
+			remoteInfo = ecHome2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80F6EF1B1AA9796B0056E147 /* ecHome2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecHome2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F6EF1F1AA9796B0056E147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F6EF201AA9796B0056E147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80F6EF231AA9796B0056E147 /* ecHome2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ecHome2.xcdatamodel; sourceTree = "<group>"; };
+		80F6EF251AA9796B0056E147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80F6EF281AA9796B0056E147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80F6EF2A1AA9796B0056E147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80F6EF2D1AA9796B0056E147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80F6EF331AA9796B0056E147 /* ecHome2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecHome2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F6EF381AA9796B0056E147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F6EF391AA9796B0056E147 /* ecHome2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecHome2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80F6EF181AA9796B0056E147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6EF301AA9796B0056E147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F6EF121AA9796B0056E147 = {
+			isa = PBXGroup;
+			children = (
+				80F6EF1D1AA9796B0056E147 /* ecHome2 */,
+				80F6EF361AA9796B0056E147 /* ecHome2Tests */,
+				80F6EF1C1AA9796B0056E147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80F6EF1C1AA9796B0056E147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80F6EF1B1AA9796B0056E147 /* ecHome2.app */,
+				80F6EF331AA9796B0056E147 /* ecHome2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80F6EF1D1AA9796B0056E147 /* ecHome2 */ = {
+			isa = PBXGroup;
+			children = (
+				80F6EF201AA9796B0056E147 /* AppDelegate.swift */,
+				80F6EF251AA9796B0056E147 /* ViewController.swift */,
+				80F6EF271AA9796B0056E147 /* Main.storyboard */,
+				80F6EF2A1AA9796B0056E147 /* Images.xcassets */,
+				80F6EF2C1AA9796B0056E147 /* LaunchScreen.xib */,
+				80F6EF221AA9796B0056E147 /* ecHome2.xcdatamodeld */,
+				80F6EF1E1AA9796B0056E147 /* Supporting Files */,
+			);
+			path = ecHome2;
+			sourceTree = "<group>";
+		};
+		80F6EF1E1AA9796B0056E147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F6EF1F1AA9796B0056E147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80F6EF361AA9796B0056E147 /* ecHome2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80F6EF391AA9796B0056E147 /* ecHome2Tests.swift */,
+				80F6EF371AA9796B0056E147 /* Supporting Files */,
+			);
+			path = ecHome2Tests;
+			sourceTree = "<group>";
+		};
+		80F6EF371AA9796B0056E147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F6EF381AA9796B0056E147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80F6EF1A1AA9796B0056E147 /* ecHome2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F6EF3D1AA9796B0056E147 /* Build configuration list for PBXNativeTarget "ecHome2" */;
+			buildPhases = (
+				80F6EF171AA9796B0056E147 /* Sources */,
+				80F6EF181AA9796B0056E147 /* Frameworks */,
+				80F6EF191AA9796B0056E147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ecHome2;
+			productName = ecHome2;
+			productReference = 80F6EF1B1AA9796B0056E147 /* ecHome2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80F6EF321AA9796B0056E147 /* ecHome2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F6EF401AA9796B0056E147 /* Build configuration list for PBXNativeTarget "ecHome2Tests" */;
+			buildPhases = (
+				80F6EF2F1AA9796B0056E147 /* Sources */,
+				80F6EF301AA9796B0056E147 /* Frameworks */,
+				80F6EF311AA9796B0056E147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80F6EF351AA9796B0056E147 /* PBXTargetDependency */,
+			);
+			name = ecHome2Tests;
+			productName = ecHome2Tests;
+			productReference = 80F6EF331AA9796B0056E147 /* ecHome2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F6EF131AA9796B0056E147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = goofygao;
+				TargetAttributes = {
+					80F6EF1A1AA9796B0056E147 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					80F6EF321AA9796B0056E147 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 80F6EF1A1AA9796B0056E147;
+					};
+				};
+			};
+			buildConfigurationList = 80F6EF161AA9796B0056E147 /* Build configuration list for PBXProject "ecHome2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80F6EF121AA9796B0056E147;
+			productRefGroup = 80F6EF1C1AA9796B0056E147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F6EF1A1AA9796B0056E147 /* ecHome2 */,
+				80F6EF321AA9796B0056E147 /* ecHome2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80F6EF191AA9796B0056E147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6EF291AA9796B0056E147 /* Main.storyboard in Resources */,
+				80F6EF2E1AA9796B0056E147 /* LaunchScreen.xib in Resources */,
+				80F6EF2B1AA9796B0056E147 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6EF311AA9796B0056E147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F6EF171AA9796B0056E147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6EF261AA9796B0056E147 /* ViewController.swift in Sources */,
+				80F6EF211AA9796B0056E147 /* AppDelegate.swift in Sources */,
+				80F6EF241AA9796B0056E147 /* ecHome2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6EF2F1AA9796B0056E147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6EF3A1AA9796B0056E147 /* ecHome2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80F6EF351AA9796B0056E147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80F6EF1A1AA9796B0056E147 /* ecHome2 */;
+			targetProxy = 80F6EF341AA9796B0056E147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80F6EF271AA9796B0056E147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F6EF281AA9796B0056E147 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80F6EF2C1AA9796B0056E147 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F6EF2D1AA9796B0056E147 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80F6EF3B1AA9796B0056E147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80F6EF3C1AA9796B0056E147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80F6EF3E1AA9796B0056E147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ecHome2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80F6EF3F1AA9796B0056E147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ecHome2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80F6EF411AA9796B0056E147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ecHome2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecHome2.app/ecHome2";
+			};
+			name = Debug;
+		};
+		80F6EF421AA9796B0056E147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ecHome2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecHome2.app/ecHome2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80F6EF161AA9796B0056E147 /* Build configuration list for PBXProject "ecHome2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F6EF3B1AA9796B0056E147 /* Debug */,
+				80F6EF3C1AA9796B0056E147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F6EF3D1AA9796B0056E147 /* Build configuration list for PBXNativeTarget "ecHome2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F6EF3E1AA9796B0056E147 /* Debug */,
+				80F6EF3F1AA9796B0056E147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80F6EF401AA9796B0056E147 /* Build configuration list for PBXNativeTarget "ecHome2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F6EF411AA9796B0056E147 /* Debug */,
+				80F6EF421AA9796B0056E147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80F6EF221AA9796B0056E147 /* ecHome2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80F6EF231AA9796B0056E147 /* ecHome2.xcdatamodel */,
+			);
+			currentVersion = 80F6EF231AA9796B0056E147 /* ecHome2.xcdatamodel */;
+			path = ecHome2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80F6EF131AA9796B0056E147 /* Project object */;
+}
